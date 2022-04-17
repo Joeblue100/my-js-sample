@@ -1,0 +1,58 @@
+body{
+    background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.welcome h1{
+    text-align: center;
+    color: white;
+}
+.welcome p{
+    color: white;
+    text-align: center;
+}
+.welcome .price-tag {
+    background-color: blue;
+}
+.welcome .price-tag h6{
+    text-align: center;
+    color: white;
+}
+.container{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+}
+.container #my-form{
+    padding: 5px;
+}
+.container #my-form button{
+    background-color: green;
+    color: white;
+}
+.container p{
+    text-align: center;
+    font-style: italic;
+}
+.container p a{
+    text-decoration: none;
+    color: red;
+}
+.container p a:hover{
+    color: green;
+}
+.my-footer p{
+    text-align: right;
+    color: blueviolet;
+}
+@media(max-width:600px){
+    .welcome h1,
+    .welcome p,
+    .welcome .price-tag h6,
+    .container p,
+    .my-footer{
+        text-align: center;
+        width: 100%;
+    }
+
+}

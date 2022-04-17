@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project one</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <style>
+        .success, .error {
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+        .success{
+            background: green;
+        }
+        .error{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome">
+        <div>
+          <h1>Learn to code by watching others</h1>
+        </div> 
+        <div>
+            <p>See how experienced developers solve problems in 
+               real-time. Watching scripted tutorials is great, but 
+               understanding how developers think is invaluable.
+            </p>
+        </div> 
+        <div class="price-tag">
+            <h6>Try it free for 7 days then $20/mo. thereafter</h6>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <form id="my-form">
+            <div>
+                <input type="text" id="first name" class="u-full-width" placeholder="First Name">
+            </div>
+            <div>
+                <input type="text" id="last name" class="u-full-width" placeholder="Last Name">
+            </div>
+            <div>
+                <input type="email" id="email address" class="u-full-width" placeholder="Email Address">
+            </div>
+            <div>
+                <input type="password" id="password" class="u-full-width" placeholder="Password">
+            </div>
+            <div>
+                <button type="submit" class="u-full-width">CLAIM YOUR FREE TRIAL</button>
+            </div>
+        </form>
+
+        <p>By clicking the button, you are agreeing to our 
+           <a href="google.com">Terms and Services</a>
+        </p>
+        <br>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Password</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="my-docs"></tbody>
+        </table>
+        <br>
+    </div>
+    <div class="my-footer">
+        <p>&copy; The Jackie '22.</p>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
